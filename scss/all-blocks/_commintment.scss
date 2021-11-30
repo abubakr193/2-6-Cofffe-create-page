@@ -1,0 +1,39 @@
+.commitment .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 168px;
+    padding-bottom: 245px;
+}
+
+.commitment .container::before {
+    width: 445px;
+    height: 520px;
+    display: block;
+    margin-right: 145px;
+    background-image: url('../images/commitment.jpg');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.commitment__info {
+    width: 540px;
+}
+
+.commitment__info__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment__info__paragraph {
+    margin: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

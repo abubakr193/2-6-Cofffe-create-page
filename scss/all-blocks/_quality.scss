@@ -1,0 +1,40 @@
+.quality .container {
+    position: relative;
+    width: 1280px;
+    background-color: #2C343E;
+    padding-top: 88px;
+    padding-bottom: 176px;
+    padding-left: 85px;
+    border-radius: 10px;
+}
+
+.quality .container::after {
+    position: absolute;
+    bottom:  20%;
+    right: 7%;
+    width: 445px;
+    height: 475px;
+    display: block;
+    background-image: url('../images/quality.png');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.quality__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__paragrahp {
+    width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}

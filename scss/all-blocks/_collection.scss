@@ -1,0 +1,129 @@
+.collection .container {
+    padding-top: 262px;
+    padding-bottom: 188px;
+    background-image: url('../images/our-collection.png');
+    background-repeat: no-repeat;
+    background-position: top 150px center;
+}
+
+.collection__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.collection__item {
+    width: 255px;
+
+    & + & {
+        margin-left: 30px;
+    }
+}
+
+.collection__item::before {
+    width: 255px;
+    height: 193px;
+    display: block;
+    margin-bottom: 70px;
+    background-image: url('../images/espresso.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.planalto::before {
+    width: 255px;
+    height: 193px;
+    display: block;
+    margin-bottom: 70px;
+    background-image: url('../images/planalto.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.picollo::before {
+    width: 255px;
+    height: 193px;
+    display: block;
+    margin-bottom: 70px;
+    background-image: url('../images/picollo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+.danche::before {
+    width: 255px;
+    height: 193px;
+    display: block;
+    margin-bottom: 70px;
+    background-image: url('../images/danche.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '';
+}
+
+
+.collection__heading {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__paragrahp {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.collection__item::before {
+    background-image: url('../images/2x-images/expresso@2x.png');
+}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.planalto::before {
+    background-image: url('../images/2x-images/planalto@2x.png');
+}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.picollo::before {
+    background-image: url('../images/2x-images/picollo@2x.png');
+}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.danche::before {
+    background-image: url('/../images/2x-images/danche@2x.png');
+}
+}

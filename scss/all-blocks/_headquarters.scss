@@ -1,0 +1,75 @@
+.headquarters .container {
+    padding: 168px 85px;
+}
+
+.headquarters__heading {
+    margin: 0;
+    margin-bottom: 72px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.headquarters__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.headquarters__item + .headquarters__item {
+    margin-left: 108px;
+    width: 255px;
+}
+
+.headquarters__item::before {
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin-bottom: 45px;
+    background-image: url('../images/uk.svg');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.canada::before {
+    width: 51px;
+    height: 50px;
+    display: block;
+    margin-bottom: 45px;
+    background-image: url('../images/canada.svg');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.australia::before {
+    width: 50px;
+    height: 45px;
+    display: block;
+    margin-bottom: 45px;
+    background-image: url('../images/australia.svg');
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.headquarters__list-heding {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333D4B;
+}
+
+.headquarters__link {
+    font-family: 'Barlow';
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

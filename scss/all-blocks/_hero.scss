@@ -1,0 +1,56 @@
+.hero__inner {
+    width: 1280px;
+    padding: 115px 85px;
+    background-image: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.hero__heading {
+    width: 493px;
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__paragrahp {
+    width: 445px;
+    margin: 0;
+    margin-bottom: 56px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.hero__link {
+    width: 217px;
+    padding: 16px 31px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    background: #0E8784;
+    color: #FEFCF7;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: #66D2CF;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+.hero__inner {
+    background-image: url('../images/2x-images/hero2x.png');
+}
+}
