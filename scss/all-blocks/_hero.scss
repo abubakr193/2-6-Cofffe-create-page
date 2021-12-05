@@ -1,5 +1,6 @@
 .hero__inner {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     padding: 115px 85px;
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
@@ -52,5 +53,30 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 .hero__inner {
     background-image: url('../images/2x-images/hero2x.png');
+    background-size:  1280px,  600px;
 }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__inner {
+        max-width: 768px;
+        width: 100%;
+        padding-top: 104px;
+        padding-bottom: 104px;
+        padding-left: 58px;
+        background-image: url('../images/hero-table.jpg');
+        background-size: 768px, 500px;
+    }
+
+    .hero__heading {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .hero__paragrahp {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
 }

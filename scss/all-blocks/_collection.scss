@@ -92,6 +92,7 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 .collection__item::before {
     background-image: url('../images/2x-images/expresso@2x.png');
+    background-size: 255px, 193px;
 }
 }
 
@@ -103,6 +104,7 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 .planalto::before {
     background-image: url('../images/2x-images/planalto@2x.png');
+    background-size: 255px, 193px;
 }
 }
 
@@ -114,6 +116,7 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 .picollo::before {
     background-image: url('../images/2x-images/picollo@2x.png');
+    background-size: 255px, 193px;
 }
 }
 
@@ -124,6 +127,18 @@ only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
 .danche::before {
-    background-image: url('/../images/2x-images/danche@2x.png');
+    background-image: url('../images/2x-images/danche@2x.png');
+    background-size: 255px, 193px;
 }
+}
+
+@media only screen and (max-width: 689px) {
+    .collection__list {
+        // flex-direction: column;
+    }
+
+    .collection__item {
+        display: flex;
+        flex-direction: column;
+    }
 }
